@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "pomdp-py"
+version = "1.3.2"
+description = "A framework to build and solve POMDP problems"
+authors = ["Kaiyu Zheng <kzheng10@cs.brown.edu>"]
+readme = "README.rst"
+packages = [{include = "pomdp_py"}]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+cython = "*"
+numpy = "*"
+scipy = "*"
+tqdm = "*"
+matplotlib = "*"
+
+[tool.poetry.group.test.dependencies]
+pygame = "*"
+opencv-python = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
