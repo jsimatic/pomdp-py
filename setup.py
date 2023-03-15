@@ -39,7 +39,7 @@ setup(name='pomdp-py',
       long_description=long_description,
       long_description_content_type="text/x-rst",
       install_requires=[
-          'Cython',
+          'cython',
           'numpy',
           'scipy',
           'tqdm',
